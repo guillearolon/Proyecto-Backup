@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Veeam Backup and Replication</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <link rel="icon" href="{{ url_for('static', filename='comafi.ico') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="nulo" >
+
+    <table id="tablaCampos" class="display">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Name Tag</th>
+                <th>Status Veeam</th>
+                <th>Job Name</th>
+                <th>Last Backup Date</th>
+            </tr>
+        </thead>
+        <tbody style="text-align: center;">
+            {% for campo in campos %}
+            <tr>
+                <td>{{ campo['Name'] }}</td>
+                <td>{{ campo['Name Tag'] }}</td>
+                <td>{{ campo['Status Veeam'] }}</td>
+                <td>{{ campo['Job Name'] }}</td>
+                <td>{{ campo['Last Backup Date'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script>
+        $(document).ready(function() {
+            $('#tablaCampos').DataTable({
+
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Area Backup</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="normalize.css"
+        <meta charset='utf-8'>
+        <meta lang="es">
+        <link rel="icon" href="{{ url_for('static', filename='comafi.ico') }}">
+        
+    </head>
+
+    <body>
+        
+        <h1 class="titulo-comafi">Area Backup</h1>
+
+        <nav>
+            <a href="{{ url_for ('mostrar_grafico') }}" target="frame">|GRAFICO|</a>
+            <a href="{{ url_for ('mostrar_tabla') }}" target="frame">TAGS |</a>
+            <a href="{{ url_for ('tareas') }}" target="frame">TAREAS |</a>
+            <a href="https://grupocomafi.sharepoint.com/sites/GerenciadeTecnologiayProduccion/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FGerenciadeTecnologiayProduccion%2FDocumentos%20compartidos%2FREPOSITORIO%20DE%20REPORTES%20E%20INFORMES%20TECNOLOGIA%20Y%20PRODUCCION%2FBACKUP%2FControl%20Firewall&viewid=27870e60%2Daf6b%2D42e0%2Dace2%2Db539ed6c89a9" target="_blank">CONTROL FIREWALL |</a>
+            <a href="https://grupocomafi.sharepoint.com/sites/GerenciadeTecnologiayProduccion/Documentos%20compartidos/Forms/AllItems.aspx?CT=1669231199867&OR=OWA%2DNT&CID=97365e2d%2Da6ca%2D90a0%2Dd463%2D1683b15fd64b&id=%2Fsites%2FGerenciadeTecnologiayProduccion%2FDocumentos%20compartidos%2FOperaciones%2FOperaciones%2FInforme%20Novedades%20Diarias%2FControl%2FPruebas%20de%20Integridad&viewid=27870e60%2Daf6b%2D42e0%2Dace2%2Db539ed6c89a9" target="_blank">PRUEBAS DE INTEGRIDAD |</a>
+            <a href="https://grupocomafi.sharepoint.com/sites/GerenciadeTecnologiayProduccion/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FGerenciadeTecnologiayProduccion%2FDocumentos%20compartidos%2FREPOSITORIO%20DE%20REPORTES%20E%20INFORMES%20TECNOLOGIA%20Y%20PRODUCCION%2FBACKUP%2FProcedimientos%20Backup&viewid=27870e60%2Daf6b%2D42e0%2Dace2%2Db539ed6c89a9" target="_blank">PROCEDIMIENTOS BKP |</a>
+        </nav>
+        
+        <iframe src="{{ url_for ('mostrar_grafico') }}" frameborder="0" name="frame" style="width: 70em; height: 35em;"></iframe>
+
+    </body>
+
+</html>

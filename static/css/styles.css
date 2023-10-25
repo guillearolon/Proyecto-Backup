@@ -1,0 +1,138 @@
+.lista {
+  background: linear-gradient(-100deg, #2f2a2c, #2f2a2c, #2f2a2c, #706468);
+  text-align: start;
+  padding: 25px 50px 75px 50px;    
+}
+
+
+  .inicio{
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:rgb(128, 162, 35);
+
+  }
+
+  .eliminar{
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:rgb(255, 59, 59);
+
+  }
+  
+  .nulo{
+    background-color: #FFFFFF;
+  }
+  
+  h1 {
+    text-shadow: 0 0 5px rgb(239, 239, 239), 0 0 5px rgb(239, 239, 239);
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgb(163, 188, 97);
+    display: inline-block;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: rgb(135, 181, 9);
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #34ab16;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  h2 {
+    color: #5abf2fea;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .eliminar-boton {
+    color: #FF0000;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: rgb(135, 181, 9);;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  form input[type="text"]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  
+  form input[type="submit"] {
+    background-color: #5abf2fea;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  p{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
+  .success{
+    font-weight: bolder;
+    color:rgb(128, 162, 35);
+    font-size: 20px;
+  }
+  
+  details summary{
+    color: #45a049;
+    font-weight: bolder;
+  }
+
+  .agregar{
+    color: red;
+  }
+

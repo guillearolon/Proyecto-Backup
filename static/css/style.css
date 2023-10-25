@@ -1,0 +1,45 @@
+body {
+
+    background: linear-gradient(-100deg, #2f2a2c, #2f2a2c, #2f2a2c, #706468);
+    text-align: center;
+    padding: 0 50px 75px 50px;    
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: darkolivegreen;
+    border-style: ridge;
+    padding: 2px;
+}
+
+
+nav{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: darkolivegreen;
+    border-style: ridge;
+    margin-bottom: 4px;
+    margin-top: -20px;
+    padding: 8px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a:hover{
+    text-shadow: rgb(226, 238, 202); 
+    color: darkolivegreen;
+    font-size: 19px;
+    
+}
+
+iframe{
+    border: none;
+    padding: 10px;
+}
